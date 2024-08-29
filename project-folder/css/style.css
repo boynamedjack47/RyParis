@@ -1,0 +1,14 @@
+.link {
+
+    justify-content: flex-end;
+}
+
+body {
+    background-color: gray;
+   
+}
+
+.main {
+    background-image: url(../images/hero-image.jpg);
+
+}
