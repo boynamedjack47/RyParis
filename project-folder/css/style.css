@@ -4,7 +4,7 @@
     gap: 75px; /* Adds space between the links */
     padding: 0; /* Removes any default padding */
     margin: 0; /* Removes any default margin */
-}
+} 
 
 body {
     background-color: white;
@@ -24,7 +24,8 @@ a {
 
 
 .main {
-    background-image: url(../images/hero-image.jpg);
+        background-image: url(../images/hero-image.jpg);
+        background-size: cover ;
 height: 500px;
 position: relative;
 margin-top: 2px;
@@ -37,4 +38,7 @@ margin-top: 2px;
     left: 50%;            /* Center horizontally */
     bottom: 0;            /* Align to the bottom */
     transform: translateX(-50%); /* Corrects the offset from left 50% */
+ 
+    font-size: x-large;
+    margin-bottom: 50px;
 }
