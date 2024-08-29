@@ -1,20 +1,27 @@
 .link {
-
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: flex-end; /* Align items to the right */
+    gap: 75px; /* Adds space between the links */
+    padding: 0; /* Removes any default padding */
+    margin: 0; /* Removes any default margin */
 }
 
 body {
     background-color: white;
    
 }
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .navbar {
     background-color: orange;
-    display: flex; /* Use flexbox to align items horizontally */
-    justify-content: flex-start; /* Align items to the right */
-    gap: 75px; /* Adds space between the links */
-    padding: 0; /* Removes any default padding */
-    margin: 0; /* Removes any default margin */
-}
+
+       
+    }
+    
+
 
 .main {
     background-image: url(../images/hero-image.jpg);
