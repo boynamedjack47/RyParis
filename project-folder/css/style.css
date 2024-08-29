@@ -1,21 +1,26 @@
 .link {
 
-    justify-content: flex-end;
 }
 
 body {
-    background-color: gray;
+    background-color: white;
    
 }
 
 .navbar {
     background-color: orange;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: flex-start; /* Align items to the right */
+    gap: 75px; /* Adds space between the links */
+    padding: 0; /* Removes any default padding */
+    margin: 0; /* Removes any default margin */
 }
 
 .main {
     background-image: url(../images/hero-image.jpg);
 height: 500px;
 position: relative;
+margin-top: 2px;
 
 }
 
