@@ -42,3 +42,7 @@ margin-top: 2px;
     font-size: x-large;
     margin-bottom: 50px;
 }
+
+.images {
+    display: flex;
+}
