@@ -72,6 +72,10 @@ margin-top: 2px;
 
 }
 
+.recipetext {
+    margin: 21px;
+}
+
 .recipesoftheweekimg {
     display: flex;
     justify-content: space-between;
