@@ -17,6 +17,10 @@
     margin: 0px px;
 }
 
+.categories {
+    margin: 0px 50px;
+}
+
 
 body {
     background-color: white;
@@ -69,11 +73,21 @@ margin-top: 2px;
     height: 200px; 
     object-fit: contain; 
    
+}
+.wheretoeatbody {
+    font-size: larger;
 
+}
+.wheretoeattext {
+    margin: 0px 50px;
 }
 
 .recipetext {
-    margin: 21px;
+    margin: 0px 50px;
+}
+
+.recipebody {
+    font-size: larger;
 }
 
 .recipesoftheweekimg {
