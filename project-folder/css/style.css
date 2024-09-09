@@ -139,14 +139,14 @@ figure {
 .bottomnav {
     background-color: orange;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between; /* Space between copyright and links */
     align-items: center; 
     padding: 30px 20px; 
 }
 
 .bottomlink {
     display: flex; 
-    gap: 100px; 
+    gap: 20px; /* Adjust the gap as needed */
 }
 
 .description{
@@ -154,11 +154,13 @@ figure {
     padding: 0px;
 }
 
+
 .descriptiontext {
     background-color: rgb(171, 190, 196);
     margin: 0px 0px;
-    padding: 0px 50px;
+    padding: 50px 50px;
     font-size: x-large;
+color: gray ;
 
 }
 
@@ -194,3 +196,45 @@ button {
     cursor: pointer;
     font-size: 16px; /* Adjust size as needed */
 }
+
+.instructions {
+   
+}
+.video {
+    text-align: center;
+}
+
+
+.instructions {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Distribute space between items */
+    padding: 20px; /* Add padding around the container */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.ingredients, .directions {
+    width: 48%; /* Each section takes up roughly half of the container width */
+    padding: 20px; /* Add padding inside each section */
+    box-sizing: border-box; /* Include padding in width calculation */
+    background-color: #f9f9f9; /* Optional: Light background for readability */
+    border-radius: 5px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+    overflow-wrap: break-word; /* Ensure long words wrap properly */
+    word-wrap: break-word; /* For older browser support */
+}
+
+.ingredients ul, .directions ol {
+    padding-left: 20px; /* Add space before list items */
+}
+
+.ingredients ul li, .directions ol li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Optional: Ensure headings and subheadings have consistent spacing */
+.ingredients h2, .directions h2,
+.ingredients h4, .directions h4 {
+    margin-bottom: 10px; /* Space below headings */
+    font-size: 1.5em; /* Adjust heading size as needed */
+}
+
