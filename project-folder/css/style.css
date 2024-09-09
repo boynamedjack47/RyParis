@@ -149,3 +149,19 @@ figure {
     gap: 100px; 
 }
 
+.description{
+    margin: 0px;
+    padding: 0px;
+}
+
+.descriptiontext {
+    background-color: rgb(171, 190, 196);
+    margin: 0px 0px;
+    padding: 0px 50px;
+    font-size: x-large;
+
+}
+
+.ingredientlist {
+    font-family: ;
+}
