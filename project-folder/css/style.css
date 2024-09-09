@@ -40,6 +40,13 @@ margin-top: 2px;
 
 }
 
+.main1 {
+    background-image: url(../images/bengal-burger.jpg);
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+
 .header {
     background-color: white;
     position: absolute;  
