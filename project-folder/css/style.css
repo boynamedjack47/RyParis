@@ -168,4 +168,29 @@ figure {
 
 .burgerlabel {
     background-color: rgb(171, 190, 196);
+    padding: 0px 50px;
+}
+
+.bengal {
+    text-align: center;
+}
+
+.reviews::before {
+    content: "★★★★★";
+    color: indianred;
+    margin-right: 10px; /* Space between stars and review count */
+    font-size: 16px; /* Adjust the size as needed */
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 32%;
+    background-color: indianred;
+    border: none;
+}
+
+.print-icon {
+    margin-left: 10px; /* Space between icon and other elements */
+    cursor: pointer;
+    font-size: 16px; /* Adjust size as needed */
 }
