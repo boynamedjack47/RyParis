@@ -144,10 +144,22 @@ figure {
     padding: 30px 20px; 
 }
 
-.bottomlink {
-    display: flex; 
+/*background-color: orange;
+    display: flex;
+    justify-content: space-between; /* Space between the logo and links 
+    align-items: center; 
+    padding: 15px 50px; /*
+/*display: flex; 
     gap: 20px; /* Adjust the gap as needed */
+
+.bottomlink {
+    display: flex; /* Use flexbox to align items horizontally */
+gap: 75px; 
+padding: 0; 
+margin: 0; 
 }
+
+
 
 .description{
     margin: 0px;
@@ -172,6 +184,8 @@ color: black ;
     background-color: rgb(171, 190, 196);
     padding: 0px 50px;
     display: flex;   
+     font-size: larger;
+     
 }
 
 
