@@ -160,7 +160,7 @@ figure {
     margin: 0px 0px;
     padding: 50px 50px;
     font-size: x-large;
-color: gray ;
+color: black ;
 
 }
 
@@ -171,7 +171,11 @@ color: gray ;
 .burgerlabel {
     background-color: rgb(171, 190, 196);
     padding: 0px 50px;
+    display: flex;   
 }
+
+
+
 
 .bengal {
     text-align: center;
@@ -180,7 +184,7 @@ color: gray ;
 .reviews::before {
     content: "★★★★★";
     color: indianred;
-    margin-right: 10px; /* Space between stars and review count */
+    margin-right: 10px; 
     font-size: 16px; /* Adjust the size as needed */
 }
 
@@ -192,49 +196,46 @@ button {
 }
 
 .print-icon {
-    margin-left: 10px; /* Space between icon and other elements */
+    margin-left: 10px; 
     cursor: pointer;
-    font-size: 16px; /* Adjust size as needed */
+    font-size: 16px; 
 }
 
-.instructions {
-   
-}
 .video {
     text-align: center;
 }
 
 
 .instructions {
-    display: flex; /* Use Flexbox for layout */
-    justify-content: space-between; /* Distribute space between items */
-    padding: 20px; /* Add padding around the container */
-    box-sizing: border-box; /* Include padding in width calculation */
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
 .ingredients, .directions {
-    width: 48%; /* Each section takes up roughly half of the container width */
-    padding: 20px; /* Add padding inside each section */
-    box-sizing: border-box; /* Include padding in width calculation */
-    background-color: #f9f9f9; /* Optional: Light background for readability */
-    border-radius: 5px; /* Optional: Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
-    overflow-wrap: break-word; /* Ensure long words wrap properly */
-    word-wrap: break-word; /* For older browser support */
+    width: 48%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #f9f9f9; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
 }
 
 .ingredients ul, .directions ol {
-    padding-left: 20px; /* Add space before list items */
+    padding-left: 20px; 
 }
 
 .ingredients ul li, .directions ol li {
-    margin-bottom: 10px; /* Space between list items */
+    margin-bottom: 10px; 
 }
 
-/* Optional: Ensure headings and subheadings have consistent spacing */
+
 .ingredients h2, .directions h2,
 .ingredients h4, .directions h4 {
-    margin-bottom: 10px; /* Space below headings */
-    font-size: 1.5em; /* Adjust heading size as needed */
+    margin-bottom: 10px; 
+    font-size: 1.5em; 
 }
 
