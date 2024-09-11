@@ -144,13 +144,7 @@ figure {
     padding: 30px 20px; 
 }
 
-/*background-color: orange;
-    display: flex;
-    justify-content: space-between; /* Space between the logo and links 
-    align-items: center; 
-    padding: 15px 50px; /*
-/*display: flex; 
-    gap: 20px; /* Adjust the gap as needed */
+
 
 .bottomlink {
     display: flex; /* Use flexbox to align items horizontally */
